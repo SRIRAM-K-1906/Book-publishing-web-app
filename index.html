@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Publishing Singapore</title>
+    <meta name="description" content="Research Publishing Singapore - Innovative Partners for Publishing Solutions.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <!-- Add your logo image here -->
+            <img src="logo.png" alt="RPS Logo" style="height: 50px; max-height: 50px;" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+            <span style="display: none;">Research Publishing <span>Singapore</span></span>
+        </div>
+        <div class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="#library">Library</a>
+            <a href="#about">About</a>
+        </div>
+        <a href="publish.html"><button class="btn-primary">Publish with us</button></a>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content fade-in-up">
+            <h1>Research Publishing <span class="highlight">Singapore</span></h1>
+            <p class="tagline">Innovative Partners for Publishing Solutions</p>
+            <p>Discover our curated collection of premium research and e-books, beautifully crafted for the modern reader.</p>
+            <div class="search-container">
+                <div class="search-bar">
+                    <input type="text" id="searchInput" placeholder="Search by title, author, or keyword...">
+                    <button class="btn-primary" id="searchBtn" style="margin: 0.1rem 0.1rem 0.1rem 0; border-radius: 50px; font-size: 0.9rem; padding: 0.5rem 1.2rem; cursor:pointer;"><i class="fas fa-search"></i> Search</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="library" class="books-section">
+        <div class="section-header">
+            <h2>Our E-Books</h2>
+            <p style="color: #aaa;">Explore our diverse catalog</p>
+        </div>
+
+        <div class="categories" id="categoryContainer">
+            <button class="category-btn active" data-category="all">All Books</button>
+            <button class="category-btn" data-category="fiction">Fiction</button>
+            <button class="category-btn" data-category="non-fiction">Non-Fiction</button>
+            <button class="category-btn" data-category="educational">Educational</button>
+        </div>
+
+        <div class="subcategories" id="subcategoryContainer">
+            <!-- Subcategories will be populated by JS -->
+        </div>
+
+        <div class="book-grid" id="bookGrid">
+            <!-- Books will be populated by JS -->
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="section-header">
+            <h2>About RPS</h2>
+            <p style="color: #aaa;">RESEARCH PUBLISHING (S) PTE. LTD. (Singapore)</p>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p><strong>Research Publishing Singapore Services (RPS)</strong> is a publishing company headquartered in Singapore with facilities in Singapore and Chennai. RPS offers state-of-the-art technology-driven products and services to conference organizers, societies, and university presses across the globe. At RPS, we strive to deliver products and services that suit each customer's unique needs by blending creativity and originality with business efficiency.</p>
+                <p>Fired by a passion for business excellence and driven by sound human values, RPS continues to grow based on its capabilities. We at RPS deliver on commitments, a practice that has transformed itself into a hallmark of RPS's business procedures and reason for its success story. We nurture new technological strengths, while enlarging the domain expertise substantially. Our expert workflows based on global best practices translate into a significant reduction in turnaround times.</p>
+                <p>RPS is strongly driven by values such as <strong>Quality, Commitment, Discipline, Learning, Integrity, Respect, Teamwork, Customer-orientation and Trust</strong>. Research Publishing Singapore Services was founded by publishing experts, who have worked in international publishing, production, and marketing for over a decade.</p>
+            </div>
+            <div class="about-stats">
+                <div class="stat-card">
+                    <i class="fas fa-globe-asia"></i>
+                    <h4>Country of Registration</h4>
+                    <p>Singapore</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-file-signature"></i>
+                    <h4>Registration No.</h4>
+                    <p>201930936E</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-book-open"></i>
+                    <h4>Local SIC</h4>
+                    <p>58110 (Publishing of books & publications)</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-calendar-alt"></i>
+                    <h4>Incorporation Date</h4>
+                    <p>17 Sep 2019</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-building"></i>
+                    <h4>Entity Type</h4>
+                    <p>Exempt Private Limited Company</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-users"></i>
+                    <h4>Officers</h4>
+                    <p>3</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-col company-details">
+                <h3>Research Publishing Singapore (RPS)</h3>
+                <p>Innovative Partners for Publishing Solutions. Bringing research and stories to life in the digital age.</p>
+                <div style="margin-top: 1.5rem;">
+                    <p><i class="fas fa-map-marker-alt"></i> 11 UPPER BOON KENG ROAD, #12-931, BOON KENG VILLE, Singapore 380011</p>
+                    <p><i class="fas fa-phone-alt"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> contact@researchpublishing.com</p>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <a href="#library">Browse Library</a>
+                <a href="publish.html">Publish with Us</a>
+                <a href="#">Author Resources</a>
+                <a href="#">Reading App</a>
+            </div>
+            <div class="footer-col">
+                <h3>Legal</h3>
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Copyright Information</a>
+                <a href="#">Cookie Policy</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 Research Publishing Singapore (RPS). All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+{
+  "admins": {
+    "fixed_admin": {
+      "email": "admin@rpsbookstore.com",
+      "passwordHash": "$2a$10$vAiUKdtP6KoZ2awwTL2Hf.zQZ6evDcsFKRJSf2EED7R0uNRniezVK"
+    }
+  },
+  "users": {
+    "usr_03fbcaj9f": {
+      "userId": "usr_03fbcaj9f",
+      "name": "Naveen",
+      "email": "naveenkumar52114@outlook.com",
+      "passwordHash": "$2a$10$JAXfh84stMsEesyBC9VV4ePL8ssgw2xl1RlH6UPK9EJtiu/ckFWbO",
+      "authProvider": "email",
+      "registrationDate": "2026-06-10T08:52:14.403Z"
+    },
+    "usr_w8gwopfnn": {
+      "userId": "usr_w8gwopfnn",
+      "name": "naveenkumar",
+      "email": "naveenkumar52114@gmail.com",
+      "passwordHash": "$2a$10$X4/U63ojSGXyR10R5AFzP.gfup4sXteuShKNY6Iii9OqGa9VsB/1O",
+      "authProvider": "email",
+      "registrationDate": "2026-06-10T13:58:56.494Z"
+    },
+    "usr_wh25n1kir": {
+      "userId": "usr_wh25n1kir",
+      "name": "NAVEEN .V",
+      "email": "naveenking0411@gmail.com",
+      "authProvider": "google",
+      "googleId": "113659750490673542339",
+      "registrationDate": "2026-06-11T11:25:26.362Z"
+    },
+    "usr_5hj6j2ph9": {
+      "userId": "usr_5hj6j2ph9",
+      "name": "NAVEEN .V",
+      "email": "naveenking04112005@gmail.com",
+      "authProvider": "google",
+      "googleId": "100174676825655205676",
+      "registrationDate": "2026-06-11T13:12:38.289Z"
+    },
+    "usr_ao1b41dy2": {
+      "userId": "usr_ao1b41dy2",
+      "name": "kumar",
+      "email": "naveen123@gmail.com",
+      "passwordHash": "$2a$10$lcxn/o.a9U9sYK/GHmZj0OHnELCLNfNXSf5PoQfvMTCOE.Jpl52Ty",
+      "authProvider": "email",
+      "registrationDate": "2026-06-11T13:16:38.073Z"
+    },
+    "usr_8sqdz487g": {
+      "userId": "usr_8sqdz487g",
+      "name": "NAVEEN V 5.11323E+11",
+      "email": "511323243034@kingston.ac.in",
+      "authProvider": "google",
+      "googleId": "111865243743210883634",
+      "registrationDate": "2026-06-11T13:27:26.906Z"
+    }
+  },
+  "passwordResets": {
+    "8e3a3362bdc9f5e05924ccfdd04dd4316798e9aec6e2589b": {
+      "email": "naveenkumar52114@outlook.com",
+      "expires": "2026-06-10T14:56:29.240Z"
+    }
+  },
+  "books": {
+    "bk_yhalb4r7o": {
+      "bookId": "bk_yhalb4r7o",
+      "title": "Moby-Dick",
+      "description": "\"Moby Dick\" is a literary masterpiece that will immerse you in a world of adventure and obsession. From its unforgettable beginning with the phrase 'Call me Ishmael,' it will captivate you with its epic narrative and unforgettable characters.\r\n\r\nDownload a free PDF copy of \"Moby Dick\" now and let yourself be carried away by this fascinating story! Dive into the depths of the sea and experience the pursuit of the legendary white sperm whale alongside Captain Ahab.\r\n\r\nDon't miss the opportunity to embark on the thrilling journey that \"Moby Dick\" offers. This novel will take you to new literary heights and make you reflect on human nature, obsession, and the fragility of humanity in the face of the power of nature.\r\n\r\nMoby-Dick by Herman Melville",
+      "category": "Novel",
+      "price": 10.02,
+      "coverUrl": "/uploads/covers/cover-1781100768772-823709990.png",
+      "pdfFilename": "pdf-1781100769272-472903169.pdf",
+      "uploadDate": "2026-06-10T14:12:50.702Z"
+    }
+  },
+  "categories": {
+    "Story": true,
+    "Science": true,
+    "Technology": true,
+    "Education": true,
+    "Novel": true
+  },
+  "purchases": {
+    "pur_nwt4dktdj": {
+      "purchaseId": "pur_nwt4dktdj",
+      "userId": "usr_w8gwopfnn",
+      "bookId": "bk_yhalb4r7o",
+      "amountPaid": 10.02,
+      "paymentStatus": "COMPLETED",
+      "purchaseDate": "2026-06-11T13:10:47.480Z"
+    },
+    "pur_j4pkaai3h": {
+      "purchaseId": "pur_j4pkaai3h",
+      "userId": "usr_5hj6j2ph9",
+      "bookId": "bk_yhalb4r7o",
+      "amountPaid": 10.02,
+      "paymentStatus": "COMPLETED",
+      "purchaseDate": "2026-06-11T13:24:36.043Z"
+    },
+    "pur_owz7qswbk": {
+      "purchaseId": "pur_owz7qswbk",
+      "userId": "usr_8sqdz487g",
+      "bookId": "bk_yhalb4r7o",
+      "amountPaid": 10.02,
+      "paymentStatus": "COMPLETED",
+      "purchaseDate": "2026-06-11T13:32:43.047Z"
+    }
+  },
+  "payments": {
+    "2UM06267FF662430W": {
+      "paymentId": "2UM06267FF662430W",
+      "purchaseId": "pur_nwt4dktdj",
+      "userId": "usr_w8gwopfnn",
+      "bookId": "bk_yhalb4r7o",
+      "amount": 10.02,
+      "status": "COMPLETED",
+      "paypalPayerId": "9YR9ALJG5M84Y",
+      "timestamp": "2026-06-11T13:10:47.494Z"
+    },
+    "37L712537U909363T": {
+      "paymentId": "37L712537U909363T",
+      "purchaseId": "pur_j4pkaai3h",
+      "userId": "usr_5hj6j2ph9",
+      "bookId": "bk_yhalb4r7o",
+      "amount": 10.02,
+      "status": "COMPLETED",
+      "paypalPayerId": "9YR9ALJG5M84Y",
+      "timestamp": "2026-06-11T13:24:36.054Z"
+    },
+    "0UM18401PN731541X": {
+      "paymentId": "0UM18401PN731541X",
+      "purchaseId": "pur_owz7qswbk",
+      "userId": "usr_8sqdz487g",
+      "bookId": "bk_yhalb4r7o",
+      "amount": 10.02,
+      "status": "COMPLETED",
+      "paypalPayerId": "9YR9ALJG5M84Y",
+      "timestamp": "2026-06-11T13:32:43.053Z"
+    }
+  }
+}

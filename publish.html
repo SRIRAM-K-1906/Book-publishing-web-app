@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publish with AuraPress | Share Your Story</title>
+    <meta name="description" content="Publish your next masterpiece with AuraPress. We offer the best tools and support for digital authors.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Aura<span>Press</span></div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="index.html#library">Library</a>
+            <a href="index.html#about">About</a>
+        </div>
+        <a href="publish.html"><button class="btn-primary">Publish with us</button></a>
+    </nav>
+
+    <header class="page-header">
+        <h1>Publish With Us</h1>
+        <p>Bring your manuscript to life. Join our community of talented authors and reach readers worldwide with premium digital formatting.</p>
+    </header>
+
+    <main class="publish-container">
+        <form class="publish-form" id="publishForm">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" class="form-control" required>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+                <label for="bookTitle">Working Title</label>
+                <input type="text" id="bookTitle" class="form-control" required>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="category">Primary Genre/Category</label>
+                    <select id="category" class="form-control" required>
+                        <option value="" disabled selected>Select a category</option>
+                        <option value="fiction">Fiction</option>
+                        <option value="non-fiction">Non-Fiction</option>
+                        <option value="educational">Educational</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="wordCount">Estimated Word Count</label>
+                    <input type="number" id="wordCount" class="form-control" required>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="synopsis">Brief Synopsis</label>
+                <textarea id="synopsis" class="form-control" placeholder="Tell us what your book is about..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary submit-btn">Submit Proposal</button>
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col company-details">
+                <h3>AuraPress Publishing</h3>
+                <p>Bringing stories to life in the digital age. We empower authors and enchant readers with beautifully designed e-books.</p>
+                <div style="margin-top: 1.5rem;">
+                    <p>📍 123 Digital Avenue, Innovation City, 90210</p>
+                    <p>📞 +1 (555) 123-4567</p>
+                    <p>✉️ hello@aurapress.com</p>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <a href="index.html#library">Browse Library</a>
+                <a href="publish.html">Publish with Us</a>
+                <a href="#">Author Resources</a>
+                <a href="#">Reading App</a>
+            </div>
+            <div class="footer-col">
+                <h3>Legal</h3>
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Copyright Information</a>
+                <a href="#">Cookie Policy</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 AuraPress Publishing. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('publishForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your proposal! Our editorial team will review it and get back to you shortly.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
